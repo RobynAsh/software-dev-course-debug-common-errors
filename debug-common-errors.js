@@ -71,10 +71,10 @@ for (let i = 0; i < numbers.length; i++) {
     if (num < 2) return false;
     for (let i = 2; i < num; i++) {
       if (num % i === 0) {
-        return false;  // It's divisible by something → NOT prime
+        return false;
       }
     }
-    return true; // It's prime
+    return true;
   }
 
   console.log(isPrime(7)); // Outputs: true
